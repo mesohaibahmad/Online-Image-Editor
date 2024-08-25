@@ -235,7 +235,11 @@ input[type='range']::-webkit-slider-thumb {
 }
 
 @media screen and (max-width: 600px) {
- .editor-panel .filter{
+ .editor-panel{
+  padding: 2px;
+  margin-bottom: 2px;
+ }
+  .editor-panel .filter{
   display: block;
  }
   .editor-panel .options{
@@ -246,13 +250,15 @@ input[type='range']::-webkit-slider-thumb {
   }
   .more{
     width: 100%;
-  
     padding: 0px;
   }
   .more .rotate{
-   
+    
     margin-top: 5px;
 
+  }
+  .rotate .title{
+    font-size: 15px;
   }
   .more .rotate .options{
     
@@ -261,13 +267,18 @@ input[type='range']::-webkit-slider-thumb {
   .more .controls .reset-filter{
     width: fit-content;
   }
-
+  .more button{
+    font-size: 14px;
+  }
+.more .controls button{
+  font-size: 13px;
+}
   .controls {
    
     margin-bottom: 15px;
   }
 
   .preview-img {
-    min-height: 400px;
+    height: 300px;
   }
 }
